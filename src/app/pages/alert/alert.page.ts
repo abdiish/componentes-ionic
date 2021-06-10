@@ -52,7 +52,7 @@ export class AlertPage implements OnInit {
 
   async presentAlertPrompt() {
     const alert = await this.alertCtrl.create({
-      header: 'Prompt!',
+      header: 'Puto el que lo lea :D',
       inputs: [
         {
           name: 'name1',
@@ -63,7 +63,7 @@ export class AlertPage implements OnInit {
           name: 'name2',
           type: 'text',
           id: 'name2-id',
-          value: 'hello',
+          value: '09/06/2021 desde Apiyork',
           placeholder: 'Placeholder 2'
         },
         // multiline input.
