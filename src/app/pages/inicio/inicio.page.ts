@@ -72,6 +72,11 @@ export class InicioPage implements OnInit {
       name:'Input Form',
       redirectTo: '/input'
     },
+    {
+      icon:'list-outline',
+      name:'List - Sliding',
+      redirectTo: '/list'
+    },
 
   ];
 
